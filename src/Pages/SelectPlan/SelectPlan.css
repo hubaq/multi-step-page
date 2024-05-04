@@ -1,0 +1,112 @@
+.billing-container {
+  display: flex;
+  width: 80%;
+}
+.billing {
+  /* margin: 0 6px 0 7px; */
+  width: 12rem;
+  background: white;
+  height: 11rem;
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.5);
+  font-size: 0.5rem;
+  cursor: pointer;
+}
+.billing:first-child,
+.billing:nth-child(2) {
+  margin: 0 6px 0 0;
+}
+.billing img {
+  width: 30px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.billing h1 {
+  font-size: large;
+  margin-top: 50px;
+  margin-left: 10px;
+}
+.bill-year {
+  font-size: 15px;
+  margin-top: -8px;
+  font-weight: 540;
+  margin-left: 10px;
+}
+.billing p {
+  font-size: small;
+  margin-left: 10px;
+  margin-top: -1px;
+}
+.activee {
+  background: var(--light-blue);
+  color: var(--marine-blue);
+}
+.checked-bill {
+  border: 1px solid var(--purplish-blue);
+}
+.clicking {
+  background: var(--alabaster);
+  width: 75%;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.5);
+  margin-top: 3rem;
+  height: 3rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.clicking h1 {
+  font-size: small;
+  font-weight: bolder;
+}
+.clicking label {
+  position: relative;
+  display: block;
+  width: 40px;
+  height: 20px;
+  transform: translateY(0.7rem);
+  background: var(--marine-blue);
+  border-radius: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+.clicking .label {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 16px;
+  height: 16px;
+  background: var(--white);
+  border-radius: 50%;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+.go {
+  transform: translateX(20px);
+}
+.disable {
+  pointer-events: none;
+}
+/* #toggle:checked + label::before {
+  transform: translateX(20px);
+} */
+
+/* .clicking label::before.come {
+  transform: translateX(0px);
+} */
+
+.monthly {
+  color: var(--marine-blue) !important;
+}
+.month {
+  color: var(--cool-gray) !important;
+}
+.addIt {
+  border: 1px solid var(--purplish-blue);
+  background-color: var(--alabaster);
+}
+.second-step .push {
+  margin-bottom: 4.5rem;
+}

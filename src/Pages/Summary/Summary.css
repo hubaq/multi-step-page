@@ -1,0 +1,45 @@
+.finishing-up-div {
+  background: var(--alabaster);
+  width: 75%;
+  padding: 1rem;
+  height: 13.5rem;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.5);
+}
+hr {
+  color: var(--cool-gray);
+  margin-bottom: 10px;
+}
+.finishing-up-div h1 {
+  font-size: 13px;
+  font-weight: bolder;
+}
+.finishing-up-div .cost {
+  margin-left: 86%;
+  font-weight: bolder;
+}
+.finishing-up-div .underline {
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: bold;
+  display: inline;
+}
+.div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.finishing-up-div .underline:hover {
+  color: var(--purplish-blue) !important;
+}
+.finish {
+  width: 80%;
+  display: flex;
+  margin-top: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.fourth-step .push {
+  margin-bottom: 4rem;
+}
